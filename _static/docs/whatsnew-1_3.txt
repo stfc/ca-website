@@ -1,0 +1,37 @@
+The major changes are as follows:
+
+* Certificates are no longer public.  Actually the general
+  public can still reach the interface, but they aren't
+  listed to the public anymore (lists should still be
+  available to RAs).
+
+* Email address goes into the certificate.  This is the
+  reason for no longer publishing certificates.
+
+* New certificates.  Since the current CA is due to expire,
+  we have issued new CA certificates.  The CA now becomes a
+  subordinate, for various technical reasons, so you will
+  often need to install also the root CA.  At least with
+  Grid middleware.
+
+* Robot certificates: these are a new type of "automated"
+  user certificates, sort of a hybrid between user and hosts,
+  in the sense that they can act as a user but have unprotected
+  private keys.
+
+  We do not expect to issue many of these, because users must
+  instead hold the private key on a secure key token, and prove to
+  you that the private key is thus protected.
+
+* Object signing.  Users can now optionally have this in their
+  certificate, but the CA does not check or assert that the user has
+  any special qualifications to sign objects.
+
+* CA's signing key goes online, protected by a FIPS 140-2 Level
+  3 hardware signing module (HSM).  This is mainly to increase
+  the signing turnaround for the issuing authority, and will not
+  affect anyone else.
+
+Note that not everything is implemented yet in the software.  We
+will implement the remaining bits as we go along - we prefer to
+test things as much as possible, rather than deploy all the features.

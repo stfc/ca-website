@@ -1,0 +1,42 @@
+
+Changed occurrences of CLRC to CCLRC (except in DNs of course).
+
+Extensions compliance is now with RFC3280 instead of RFC2459.
+
+Issuer DN was wrong.
+
+Email verification clarified slightly (section 2.1.2 now refers to
+3.1.9).  May still need more clarification but at the moment it seems
+reasonable to put those in the Operator's procedure.
+
+Split RA obligation into Manager's obligation and Operator's
+obligation.
+
+Speaking of email, we took out the bits about sending certificates to
+subscribers by email because we are apparently not doing this at the
+moment.  It will go back in later.
+
+CNs clarified: the set of permissible characters is now well defined,
+but for technical reasons it is rather smaller than what most people
+would have liked.  These technical reasons are not OpenCA specific.
+Some of the difficulties are due to software parsing the DN as a
+string (so it will choke on spurious '/' or ',' characters, depending
+on the way the DN is presented).  Other difficulties are more
+fundamental, such how different software interprets and compares
+T61Strings.  Some people have asked for UTF-8 in CNs but that is out
+of the question: OpenSSL does not currently support UTF-8 so
+certificates issued with UTF-8 would be useless.
+
+**************************
+Changes to extensions in personal and server/service certificates:
+
+* basicConstraints and keyUsage will be both be marked critical;
+
+* There will be a certificatePolicies extension with the
+value policyIdentifier (OID);
+
+* Host and service certs will get Fully Qualified Domain name in the
+subjectAltName extension.
+
+* Host and service certs will get nsCertType: SSL Server, SSL Client.
+Previously they only had "SSL Server".

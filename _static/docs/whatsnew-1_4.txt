@@ -1,0 +1,25 @@
+Changed the organisation name - the host organisation was renamed from
+"the Council for the Central Laboratory of the Research Council"
+(CCLRC) to "Science and Technology Facilities Council" (STFC) when
+CCLRC merged with the Particle Physics and Astronomy Research Council
+(PPARC) in April 2007.
+
+No other instance of "CCLRC" will change - the RAs named "CLRC" (the
+original central laboratory run by the council for the laboratory)
+will not change their names.
+
+Changed the CA physical address slightly; in the above merger, the
+recommended address changed very slightly.
+
+Authority "name" finally removed from end entity authority key
+identifier.  Also removed from CA certificate profile - this was a
+bug, it was never in the CA certificate (nor should it have been).
+
+CA issuer and subject changed following the security rollover in
+November, with somewhat more sanitised names (discarding yet more
+historical baggage - discarded the final L in the issuer name).  Also,
+more informative CNs display better in browsers.
+
+
+No other changes were implemented - a largeish number of changes are
+pending but will be postponed to the next release (due January 2008).

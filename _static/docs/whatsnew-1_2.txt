@@ -1,0 +1,55 @@
+1. Law
+
+I am getting increasingly worried about compliance with UK law and EU
+regulations.  Not that we don't comply with the law, but rather that I
+have not put enough effort in to ensure that we do.  As the CA grows,
+I need to do more to ensure that your personal information is treated
+lawfully and prevent abuse.  For example, it has never been explicitly
+described what an RA Operator can do with the copy of your passport.
+Some of the legal stuff may be relegated to ancillary documents and
+procedures, but the main ones ought to be addressed in the CP/CPS
+itself because they affect the procedures.  Unfortunately that makes
+the CP/CPS longer...
+
+As another consequence of my legal crackdown, Encryption is now
+explicitly forbidden.
+
+The legal stuff may still be subject to change, because there are
+still a few issues I need to understand better.
+
+2. Describing current practice
+
+Tightened a few rules, but almost entirely to document existing
+practice.
+
+CA must publish the services for which it will issue service
+certificates (we used to have this list but it was overwritten by
+accident!);
+
+RPs must not use parts of the DN for authorisation purposes;
+
+Only the responsible sysadmin may apply for host or service
+certificates - this is already practice for the CA but has now been
+made explicit in the CPS;
+
+3. Miscellaneous
+
+Described new practices associated with the CA upgrade:
+	- All requests are now via HTTPS
+
+Made explicit that DNs must be unique for a while, or "forever".
+Which means that a Subscriber cannot get a DN that was previously used
+in a personal certificate issued to *another* Subscriber *even if that
+personal certificate has expired or been revoked*.  This should not be
+hard to check for the RA because fortunately, in the UK each RA issues
+in a distinct namespace and the CA will warn the RA if a DN is being
+reused.
+
+Took out the "External" RA - it was never used and now we have other
+methods.  Either we verify the PIN through out-of-band means or the
+requestor goes to a catch-all CA.
+
+Clarified that the CA (the issuing authority) is also an RA.
+
+I may still remove or alter some of the informational extensions.
+Likely candidates are the Netscape-X-URL extensions.

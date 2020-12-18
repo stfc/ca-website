@@ -1,0 +1,31 @@
+What's new for the CP/CPS version 1.0:
+
+The most important new thing is a description of the renewal process.
+
+There is also a renewal extension added to the certificate.  In the
+future, it should probably be a script but for now it points to the
+main renewal entry point.
+
+Some clarifications concerning the application of certificates.  It's
+our job to be primarily a Grid CA, not an email CA or an encryption
+CA.
+
+Maximal length of DN entries is now specified.  At the risk of
+redundancy, types of entries are now more clearly specified.  Clarify
+that whitespace alone, like punctuation and case, must not be used to
+make names unique.
+
+The RA or CA is now explicitly allowed to delete 'stale' requests
+(requests where the owner has made no attempt to get them approved
+within 30 days).
+
+Some clarification regarding personal information stored by RAs.  This
+is to be followed up in version 1.1 which will contain more about the
+DPA.
+
+The curiosity that is the ca-operator certificate is explained.
+
+Added global line numbers for reference purposes.  They won't be the
+same in the changelog version as in the 'final' version, though.
+
+Various minor enhancements.

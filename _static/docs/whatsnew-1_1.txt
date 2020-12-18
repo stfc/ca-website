@@ -1,0 +1,33 @@
+Reissued root certificate with the following changes:
+
+	1. Using SHA1 as hash algorithm instead of MD5
+
+	2. Set keyUsage to critical (for historical reasons it wasn't)
+
+The new root is downloadable from the usual location:
+http://ca.grid-support.ac.uk/cgi-bin/sendcert
+
+End entity certificates will also now use the SHA1 algorithm for signing.
+
+------------------------------------------------------------------------
+IMPORTANT NOTICE :
+
+THE VALIDITY OF EXISTING END USER CERTIFICATE WILL NOT BE AFFECTED
+
+Both new ones (with SHA1) and old ones (with MD5) will validate
+successfully against both the old root (with MD5) and the new root
+(with SHA1).
+
+The signing policy does not change.  The name does not change.
+------------------------------------------------------------------------
+
+As of this version and in the future, the changelog version will not
+be (and will not claim to be) a valid CP/CPS.  Thus all operations etc
+are defined in a single document.
+
+All other planned changes to the CP/CPS have been postponed till
+version 1.2.
+
+As this is a security issue, there is no consultation period.  The
+CP/CPS takes effect immediately.
+
