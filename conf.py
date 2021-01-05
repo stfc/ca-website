@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'UK eScience CA'
-copyright = '2020, STFC'
+copyright = '2021, STFC'
 author = 'Will Furnell'
 
 # The full version, including alpha/beta/rc tags
@@ -60,29 +60,12 @@ html_static_path = ['_static']
 html_logo = "_static/stfc_logo.png"
 
 html_theme_options = {
-
-    # Set the name of the project to appear in the navigation.
-    'nav_title': 'UK eScience CA',
-
-
-    # Specify a base_url used to generate sitemap.xml. If not
-    # specified, then no sitemap will be built.
-    'base_url': 'https://ngs.ac.uk/ukca/',
-
-    # Set the color and the accent color
-    'color_primary': 'green',
-    'color_accent': 'light-blue',
-
-    # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
-    # If False, expand all TOC entries
-    'globaltoc_collapse': False,
-    # If True, show hidden TOC entries
-    'globaltoc_includehidden': True,
-    
-    'logo_icon': '&#xe869',
 }
 
 html_sidebars = {
     "**": ["globaltoc.html", "searchbox.html"]
 }
+
+html_css_files = [
+    'custom.css',
+]

@@ -30,11 +30,12 @@ UK eScience Certificate Authority
 .. note::
    In response to the COVID-19 crisis and the government's requirement that we work from home whenever possible, the UK eScience CA has taken two measures to adapt to remote working.
 
-   * We have taken measures to ensure that signing can continue even though operators are working from home.
-   * As face to face authentication for identity verification for new personal certificates is currently not possible, we have implemented a procedure for RA Operators which will involve:
-      * checking photo id (preferably organisational id) over a video link, supplemented by
-      * the requester logging into a service in the UK Access Management Federation with their organisational identity and displaying this process and its (successful) results to the operator, and
-      * that the requester has submitted the request with their home organisation email address.
+   - We have taken measures to ensure that signing can continue even though operators are working from home.
+   - As face to face authentication for identity verification for new personal certificates is currently not possible, we have implemented a procedure for RA Operators which will involve:
+   
+      - checking photo id (preferably organisational id) over a video link, supplemented by
+      - the requester logging into a service in the UK Access Management Federation with their organisational identity and displaying this process and its (successful) results to the operator, and
+      - that the requester has submitted the request with their home organisation email address.
 
    Almost everything else will continue as before with no changes.
 
