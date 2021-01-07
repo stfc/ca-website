@@ -6,14 +6,14 @@ What is an RA?
 
 When applying for a certificate, it is a requirement to prove your identity to the Certification Authority (CA) by presenting a valid photo id in person. This involves a face-to-face meeting with a member of the CA who will check your id and take a copy of it.
 
-A Registration Authority (RA) is an institution (e.g. a university) authorised by the UK CA to check user's identities and to approve requests for digital certificates. By having RAs located around the UK, users don't need to travel long distances to have the face-to-face meeting.
+A Registration Authority (RA) is an institution (e.g. a university) authorised by the UK eScience CA to check user's identities and to approve requests for digital certificates. By having RAs located around the UK, users don't need to travel long distances to have the face-to-face meeting.
 
 When you request a certificate, you need to visit your closest RA, who will check your id and approve your request so the CA can issue your certificate.
 
 RA List
 *******
 
-The list of RA operators is avaliable on the CAPortal `here <https://portal.ca.grid-support.ac.uk/pub/viewralist>`_. You will need to contact your nearest RA Operator when applying for a certificate for the first time.
+The list of RA operators is avaliable on the `CAPortal <https://portal.ca.grid-support.ac.uk/pub/viewralist>`_. You will need to contact your nearest RA Operator when applying for a certificate for the first time.
 They can also help you with renewing certificates.
 
 Creating a new RA
@@ -52,6 +52,6 @@ Four steps are required for becoming an RA Operator.
 Once all the steps are completed, the RA will be set up and ready to deal with user's requests.
 
 
-.. _RA Operator letter of appointment: _static/docs/RA_Operator.doc
-.. _RA Manager appointment letter: _static/docs/RA_Manager.doc
-.. _self-appointed RA Operator letter: _static/docs/Self_RA_operator.doc
+.. _RA Operator letter of appointment: ../_static/docs/RA_Operator.doc
+.. _RA Manager appointment letter: ../_static/docs/RA_Manager.doc
+.. _self-appointed RA Operator letter: ../_static/docs/Self_RA_operator.doc

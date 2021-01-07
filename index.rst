@@ -1,5 +1,5 @@
-UK eScience Certificate Authority
-=================================
+UK eScience Certification Authority
+===================================
 
 .. toctree::
    :maxdepth: 2
@@ -23,16 +23,15 @@ UK eScience Certificate Authority
    :caption: Policies & Certificates
    :hidden:
    
-   rootcerts
+   cacerts
    policy
    gdpr
 
 .. note::
-   In response to the COVID-19 crisis and the government's requirement that we work from home whenever possible, the UK eScience CA has taken two measures to adapt to remote working.
+   In response to the COVID-19 crisis and the government's requirement that we work from home whenever possible, the UK eScience CA has taken measures to adapt to remote working.
 
-   - We have taken measures to ensure that signing can continue even though operators are working from home.
    - As face to face authentication for identity verification for new personal certificates is currently not possible, we have implemented a procedure for RA Operators which will involve:
-   
+
       - checking photo id (preferably organisational id) over a video link, supplemented by
       - the requester logging into a service in the UK Access Management Federation with their organisational identity and displaying this process and its (successful) results to the operator, and
       - that the requester has submitted the request with their home organisation email address.
@@ -41,7 +40,7 @@ UK eScience Certificate Authority
 
    Through careful implementation of these processes, we can ensure that the level of assurance provided by the UK eScience CA is not lowered, and we remain compliant with the IGTF requirements for a Classic CA ("CEDAR").
 
-**Welcome to the UK Certification Authority. Please read the information below to obtain a certificate.**
+**Welcome to the UK eScience Certification Authority. Please read the information below to obtain a certificate.**
 
 Who can have a Certificate?
 ###########################
@@ -51,7 +50,7 @@ Any academic, researcher, student or member of the e-Science community based in 
 Why you need a Certificate
 ##########################
 
-A certificate from the UK CA can be used to authenticate you so that you can securely access Grid, Data and Compute resources worldwide. Our certificates are internationally trusted by the Interoperable Global Trust Federation (IGTF).
+A certificate from the UK eScience CA can be used to authenticate you so that you can securely access Grid, Data and Compute resources worldwide. Our certificates are internationally trusted by the Interoperable Global Trust Federation (IGTF).
 
 Who can apply for a certificate?
 ################################

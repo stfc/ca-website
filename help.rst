@@ -1,7 +1,7 @@
 Helpdesk
 ========
 
-If you need to contact the UKCA Support Centre we require you to generate a helpdesk "ticket". Typically this will be to report some problem you are having with certificates.
+If you need to contact the UK eScience CA Support Centre we require you to generate a helpdesk "ticket". Typically this will be to report some problem you are having with certificates.
 
 Advice when submitting a ticket
 ###############################
@@ -16,6 +16,6 @@ In order for us to provide you with a prompt, accurate response please provide u
 Submitting a helpdesk ticket
 ############################
 
-You can submit your helpdesk ticket to the UKCA Support Centre helpdesk by email as follows. Please ensure that your contact details are correct, and also indicate if you are going to be unavailable for us to reach you, e.g. if you will be out of your office.
+You can submit your helpdesk ticket to the UK eScience CA Support Centre helpdesk by email as follows. Please ensure that your contact details are correct, and also indicate if you are going to be unavailable for us to reach you, e.g. if you will be out of your office.
 
 email: `support@grid-support.ac.uk <mailto:support@grid-support.ac.uk>`_

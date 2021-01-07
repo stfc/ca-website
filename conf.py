@@ -60,6 +60,7 @@ html_static_path = ['_static']
 html_logo = "_static/stfc_logo.png"
 
 html_theme_options = {
+    "style_external_links": True
 }
 
 html_sidebars = {

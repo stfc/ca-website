@@ -1,5 +1,5 @@
-GDPR
-====
+GDPR Statement
+==============
 
 This is the GDPR statement of the UK e-Science CA. It clarifies the existing statement of data protection description in Section C of the CP in terms of the GDPR principles. The data processing itself should not change with the introduction of the GDPR.
 
