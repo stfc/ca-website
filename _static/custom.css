@@ -1,3 +1,8 @@
 .wy-nav-content {
-    max-width: 50% !important;
+    max-width: 70% !important;
+}
+
+.rst-content code, .rst-content tt {
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }

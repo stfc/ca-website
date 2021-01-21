@@ -33,6 +33,7 @@ html_title = 'UKCA'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_rtd_theme_ext_color_contrast',
 ]
 
 
