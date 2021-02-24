@@ -17,6 +17,7 @@ UK eScience Certification Authority
    :hidden:
 
    help
+   certificatemanagement
 
 .. toctree::
    :maxdepth: 2
