@@ -177,7 +177,7 @@ They'll need gathering and placing in the same directory, in separate key and ce
     # The files in keydir and certdir (regardless of whether you have separate directories or not) must have correct
     # permissions for hostkeys and hostcerts and be named according to the style described above
 
-    bin/cli bulkrenew -c PeCR.cfg --cnfile FQDNs.txt --renewkeydir new_bulkreqs --keydir old_keydir --certdir old_certdir
+    bin/cli bulkrenew -c PeCR.cfg --server --cnfile FQDNs.txt --renewkeydir new_bulkreqs --keydir old_keydir --certdir old_certdir
 
     # You'll now be prompted for the passphrase (and conformation) to protect all the keys that are stored in
     #   your renewkeydir (they must all have the same passphrase).
