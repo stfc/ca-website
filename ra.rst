@@ -52,6 +52,6 @@ Four steps are required for becoming an RA Operator.
 Once all the steps are completed, the RA will be set up and ready to deal with user's requests.
 
 
-.. _RA Operator letter of appointment: ../_static/docs/RA_Operator.doc
-.. _RA Manager appointment letter: ../_static/docs/RA_Manager.doc
+.. _RA Operator letter of appointment: ../_static/docs/RA_operator.doc
+.. _RA Manager appointment letter: ../_static/docs/RA_manager.doc
 .. _self-appointed RA Operator letter: ../_static/docs/Self_RA_operator.doc
