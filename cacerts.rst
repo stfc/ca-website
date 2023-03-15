@@ -14,8 +14,8 @@ IGTF-accredited UK eScience CA Certificates
 ******************************************************
 - Certificate for importing into your browser: `UK e-Science Root <https://cert.ca.ngs.ac.uk/escience-root.cer>`_
 - `Root CRL <http://crl.ca.ngs.ac.uk/crl/root-crl.der>`_
-- SHA-1 Fingerprint: ``A1:39:B0:F3:04:6C:0B:F9:F5:0A:1B:33:00:06:4F:83:6B:7D:4F:3E``
-- SHA-256 Fingerprint: ``53:87:A6:41:C8:FC:F7:2C:81:00:78:72:C9:6E:4C:AE:AB:11:0A:A9:4A:EC:92:CB:CB:B0:C4:77:93:F5:24:7F``
+- SHA-1 Fingerprint: ``59:7C:1A:AA:EC:65:7E:4A:F5:6A:00:1F:E2:16:44:48:96:35:DB:B1``
+- SHA-256 Fingerprint: ``76:F3:A5:94:2E:22:01:2D:7E:10:E1:1B:41:6F:B2:EE:A2:1D:8F:45:83:F2:D2:FC:79:9B:D4:CE:D0:21:03:23``
 - OpenSSL Certificate: `7ed47087.0 <https://cert.ca.ngs.ac.uk/7ed47087.0>`_
 - Signing Policy: `7ed47087.signing_policy <http://cert.ca.ngs.ac.uk/signing_policy/7ed47087.signing_policy>`_
 
