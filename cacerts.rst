@@ -39,6 +39,7 @@ These can be used to prove that the certificate you have received is the correct
 
     $ # openssl v1.X.Y
     $ openssl x509 -in 7ed47087.0 -noout -fingerprint -sha1
-    SHA1 Fingerprint=A1:39:B0:F3:04:6C:0B:F9:F5:0A:1B:33:00:06:4F:83:6B:7D:4F:3E
+    SHA1 Fingerprint=59:7C:1A:AA:EC:65:7E:4A:F5:6A:00:1F:E2:16:44:48:96:35:DB:B1
 
-
+    $ oopenssl x509 -in 7ed47087.0 -noout -fingerprint -sha256
+    SHA256 Fingerprint=76:F3:A5:94:2E:22:01:2D:7E:10:E1:1B:41:6F:B2:EE:A2:1D:8F:45:83:F2:D2:FC:79:9B:D4:CE:D0:21:03:23
