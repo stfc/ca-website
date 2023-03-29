@@ -18,6 +18,7 @@ UK eScience Certification Authority
 
    help
    certificatemanagement
+   subjectaltnames
 
 .. toctree::
    :maxdepth: 2
@@ -29,17 +30,12 @@ UK eScience Certification Authority
    gdpr
 
 .. note::
-   In response to the COVID-19 crisis and the government's requirement that we work from home whenever possible, the UK eScience CA has taken measures to adapt to remote working.
+   
+   With changing working patterns, including hybrid working, virtual identity checking by RA Operators is still possible. This procedure includes:
 
-   - As face to face authentication for identity verification for new personal certificates is currently not possible, we have implemented a procedure for RA Operators which will involve:
-
-      - checking photo id (preferably organisational id) over a video link, supplemented by
-      - the requester logging into a service in the UK Access Management Federation with their organisational identity and displaying this process and its (successful) results to the operator, and
-      - that the requester has submitted the request with their home organisation email address.
-
-   Almost everything else will continue as before with no changes.
-
-   Through careful implementation of these processes, we can ensure that the level of assurance provided by the UK eScience CA is not lowered, and we remain compliant with the IGTF requirements for a Classic CA ("CEDAR").
+   - checking photo id (preferably organisational id) over a video link, supplemented by
+   - the requester logging into a service in the UK Access Management Federation with their organisational identity and displaying this process and its (successful) results to the operator, and
+   - that the requester has submitted the request with their home organisation email address.
 
 **Welcome to the UK eScience Certification Authority. Please read the information below to obtain a certificate.**
 

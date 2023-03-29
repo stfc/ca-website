@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'UK eScience CA'
-copyright = '2021, STFC'
+copyright = '2023, STFC'
 author = 'Will Furnell'
 
 # The full version, including alpha/beta/rc tags
