@@ -45,7 +45,7 @@ An RA must have one RA Manager and one or more RA Operators (the same person can
 Four steps are required for becoming an RA Operator.
 
 1. Obtain a UK eScience certificate. To carry out the RA Operator duties, a digital certificate belonging to the RA you are an RA Op of is required.
-2. Sit an `Online RA Training Course <https://ra-training.ca.ngs.ac.uk/pages/course.html>`_ and then pass the test at the end.
+2. Pass the `Online RA Training <https://forms.microsoft.com/r/LzX2E4yBUV>`_.
 3. The RA Manager should post an `RA Operator letter of appointment`_: this is very similar to the RA Manager appointment letter. It needs to be signed both by the RA Manager and by the appointed RA Operator. One letter must be used for each different RA Operator. If the RA Manager and the RA Operator are the same person please use the `self-appointed RA Operator letter`_.
 4. The UK eScience CA Service Manager will then promote your certificate to be an RA one
 

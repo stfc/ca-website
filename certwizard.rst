@@ -4,7 +4,7 @@ CertWizard
 CertWizard is a graphical client that can be used to store and request your certificates. 
 If you have multiple certificates you need to keep track of, then using CertWizard can be easier than the CAPortal.
 
-The latest version is 2.0.1, and is available to download below. 
+The latest version is 2.1.1, and is available to download below. 
 The Windows installer, Mac application and Windows Portable App do not need Java on your system - so we recommend using these.
 If you wish to use the JAR file (e.g. you are on Linux), then you will need Java 11 or above installed.
 
