@@ -12,6 +12,8 @@ If you wish to use the JAR file (e.g. you are on Linux), then you will need Java
 
 `Mac App <https://github.com/stfc/CertWizard/releases/download/v2.1.1/CertWizard-2.1.1-mac.zip>`_
 
+- Please note that the Mac application is not signed, so your system's security policy might prevent it from running. If you experience issues with the Mac application, please use the JAR file version below with a Java 11 runtime.
+
 `Windows Portable App <https://github.com/stfc/CertWizard/releases/download/v2.1.1/CertWizard-2.1.1-windows.zip>`_
 
 `JAR file (for Linux or experienced users, Java 11 required) <https://github.com/stfc/CertWizard/releases/download/v2.1.1/CertWizard-jar-with-dependencies.jar>`_
