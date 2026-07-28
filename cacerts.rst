@@ -28,10 +28,28 @@ IGTF-accredited UK eScience CA Certificates
 - OpenSSL Certificate: `530f7122.0 <https://cert.ca.ngs.ac.uk/530f7122.0>`_
 - Signing Policy: `530f7122.signing_policy <http://cert.ca.ngs.ac.uk/signing_policy/530f7122.signing_policy>`_
 
+/C=UK/O=eScienceRoot/OU=Authority/CN=UK e-Science Root 2026
+***********************************************************
+- Certificate for importing into your browser: `UK e-Science Root 2026 <https://cert.ca.ngs.ac.uk/UKeScienceRoot-2026.cer>`_
+- `Root 2026 CRL <http://crl.ca.ngs.ac.uk/crl/uk-root-crl.crl>`_
+- SHA-1 Fingerprint: ``D1:DF:C4:BA:F4:E0:68:E0:11:EC:B0:C0:20:FE:88:6D:1C:9A:55:91``
+- SHA-256 Fingerprint: ``56:5C:16:E7:D6:FF:0F:60:2A:EF:CA:2A:58:56:34:C1:90:D7:D9:DA:41:1C:77:50:D7:9C:AC:6B:35:1F:FF:FA``
+- OpenSSL Certificate: `51b8b0cf.0 <https://cert.ca.ngs.ac.uk/51b8b0cf.0>`_
+- Signing Policy: `51b8b0cf.signing_policy <http://cert.ca.ngs.ac.uk/signing_policy/51b8b0cf.signing_policy>`_
+
+/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 3B
+*****************************************************
+- Certificate for importing into your browser: `UK e-Science CA 3B <https://cert.ca.ngs.ac.uk/UKeScienceCA-3B.cer>`_
+- `3B CRL <http://crl.ca.ngs.ac.uk/crl/escience3b.crl>`_
+- SHA-1 Fingerprint: ``7E:90:D9:FB:5F:77:75:34:4E:73:EC:75:BC:62:51:B6:04:D8:9F:09``
+- SHA-256 Fingerprint: ``16:38:38:60:BC:6E:61:48:8F:FB:94:5E:96:19:63:96:7C:4F:E8:D7:3D:2B:2E:96:41:D0:B5:35:CC:A4:B8:45``
+- OpenSSL Certificate: `90fc848c.0 <https://cert.ca.ngs.ac.uk/90fc848c.0>`_
+- Signing Policy: `90fc848c.signing_policy <http://cert.ca.ngs.ac.uk/signing_policy/90fc848c.signing_policy>`_
+
 Frequently Asked Questions
 ##########################
 
-Q: What are the SHA-1 fingerprints?
+Q: What are the SHA-1 and SHA-256 fingerprints?
 
 These can be used to prove that the certificate you have received is the correct one. Note that you also have to trust the source of the fingerprint which is why they should be provided on different servers. The example below shows that the two eScience Root CA files are for the same certificate
 
