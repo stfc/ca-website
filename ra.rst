@@ -19,6 +19,9 @@ They can also help you with renewing certificates.
 Creating a new RA
 #################
 
+.. warning::
+    To ensure that we recieve your request, please contact the CA helpdesk (support@grid-support.ac.uk) before you send a letter to us for RA registration, Appointing RA Managers and RA Operators. Please also send the letter in Royal Mail 1st class post equivalent or above, per security requirements.
+
 If you want to host an RA in your institution, you will need to contact the helpdesk where we will guide you through the following steps.
 
 Choosing a name for the RA
